@@ -69,7 +69,7 @@ local library = {
 
 library.themes = {
     {
-        name = 'faith.dev v1',
+        name = 'salvia.dev beta',
         theme = {
             ["Accent"]                    = fromrgb(147, 112, 219); -- Medium purple for highlights and interactive elements
             ["Background"]                = fromrgb(30, 30, 30);    -- Dark gray-black for main background
@@ -4676,7 +4676,7 @@ function library:CreateSettingsTab(menu)
             end
         end
         setByPreset = false
-    end}):Select('faith.dev v1');
+    end}):Select('salvia.dev beta');
 
     return settingsTab;
 end
